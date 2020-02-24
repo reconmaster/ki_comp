@@ -1,0 +1,41 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: software
+#+date: <2020-02-24 Mon>
+#+author: Andrew M Davis
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 26.3 (Org mode 9.2.5)
+Once you have obtained a functional computational platform, the
+flavour of linux you'd like to drink from is up to you.
+
+For beginners, I'd recommend a [[https://en.wikipedia.org/wiki/Debian][debian]]-based distro for security
+reasons.
+* Distro
+** [[https://en.wikipedia.org/wiki/Debian][Debian]]
+*** [[https://linuxmint.com/][Linux Mint]]
+**** [[https://linuxmint.com/download.php][download]]
+ Select the bit and desktop version you'd like to run.
+
+ As a physicist, I'd recommend the lightweight [[https://en.wikipedia.org/wiki/Xfce][Xfce]] to save on
+ [[https://en.wikipedia.org/wiki/Electricity][electricity]]. Older computers may only have a [[https://en.wikipedia.org/wiki/Central_processing_unit][CPU]] that supports 32-bit,
+ and can still function beautifully as a mind mirror. People routinely
+ underestimate the power of a pen.
+* Install
+** bootable usb
+*** dd
+For those of you with linux already.
+
+#+begin_src sh
+#find usb
+lsblk
+
+# write linux.iso to usb
+dd bs=4M if=path/to/linux.iso of=/dev/sdx status=progress oflag=sync
+#+end_src
+*** [[https://rufus.ie/][Rufus]]
+Used a few times on osx and doze. Works rather well.

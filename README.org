@@ -1,0 +1,25 @@
+#+OPTIONS: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+OPTIONS: author:t broken-links:nil c:nil creator:nil
+#+OPTIONS: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+OPTIONS: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+OPTIONS: timestamp:t title:t toc:t todo:t |:t
+#+TITLE: comp
+#+AUTHOR: Andrew M Davis, PhD
+#+EMAIL: @reconmaster:matrix.org
+#+LANGUAGE: en
+#+SELECT_TAGS: export
+#+EXCLUDE_TAGS: noexport
+#+CREATOR: Emacs 26.1 (Org mode 9.1.13)
+#+FILETAGS: 気, ki, comp
+Objective: Optimal computing platform
+
+#+BEGIN_QUOTE
+At each increase of knowledge, as well as on the contrivance of every
+new tool, human labour becomes abridged.
+
+Babbage 先生
+#+END_QUOTE
+* Introduction
+
+* [[file:docs/hardware.org][Hardware]]
+* [[file:docs/software.org][Software]]

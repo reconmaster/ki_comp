@@ -1,0 +1,10 @@
+When selecting a computing machine, I generally like to recommend
+[[https://en.wikipedia.org/wiki/Open-source_hardware][open-source hardware]].
+
+That being said, [[https://en.wikipedia.org/wiki/ThinkPad][ThinkPads]] can run even after having water poured
+through them.
+
+- [[https://www.youtube.com/watch?v=0U5n2WaMMHo][Lenovo ThinkPad Extreme Spill Test]]
+* [[https://en.wikipedia.org/wiki/ThinkPad][ThinkPad]]
+** [[https://www.lenovo.com/us/en/laptops/thinkpad/t-series/t430/][T430s]]
+Initial pilot install of configuration.
