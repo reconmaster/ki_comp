@@ -150,8 +150,10 @@ sudo apt-get install beets\
 #+END_SRC
 ***** video
 #+BEGIN_SRC sh
-sudo apt-get install kodi\
-    vlc
+sudo apt-get install\
+     blender\
+     kodi\
+     vlc
 #+END_SRC
 *** office
 #+BEGIN_SRC sh
