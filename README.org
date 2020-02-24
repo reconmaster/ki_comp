@@ -20,6 +20,9 @@ new tool, human labour becomes abridged.
 Babbage 先生
 #+END_QUOTE
 * Introduction
-
+Computers are fantastic tools for keeping track of information. Just
+make sure they don't take over you.
 * [[file:docs/hardware.org][Hardware]]
+This is the electronic components that move the bits around.
 * [[file:docs/software.org][Software]]
+This is what bit flippin' can do.
