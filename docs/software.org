@@ -22,7 +22,7 @@ reasons.
 Select the bit and desktop version you'd like to run.
 
 As a physicist, I'd recommend the lightweight [[https://en.wikipedia.org/wiki/Xfce][Xfce]] to save on
-electricity]]. Older computers may only have a [[https://en.wikipedia.org/wiki/Central_processing_unit][CPU]] that supports 32-bit,
+electricity. Older computers may only have a [[https://en.wikipedia.org/wiki/Central_processing_unit][CPU]] that supports 32-bit,
 and can still function beautifully as a mind mirror. People routinely
 underestimate the power of a pen.
 
@@ -201,17 +201,16 @@ Try to plan out what you're going to connect to before getting lost in
 space. [[https://www.wikipedia.org/][Wikipedia]] makes for a great starting resource.
 *** [[https://en.wikipedia.org/wiki/Firefox][Firefox]]
 A very nice browser platform that can be customized to research.
-**** plugins
-***** [[https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/][cookie autoDelete]]
-***** [[https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/][decentraleyes]]
-***** [[https://www.eff.org/https-everywhere][https everywhere]]
-***** [[https://addons.mozilla.org/en-US/firefox/addon/noscript/][noScript security suite]]
-***** [[https://www.eff.org/privacybadger][privacy badger]]
-***** [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock origin]]
-***** [[https://addons.mozilla.org/en-US/firefox/addon/umatrix/][uMatrix]]
-****** recipes
-  - [[https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets][gorhill (creator)]]
-  - [[https://github.com/kristerkari/umatrix-recipes][kristerkari]]
+**** [[https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/][cookie autoDelete]]
+**** [[https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/][decentraleyes]]
+**** [[https://www.eff.org/https-everywhere][https everywhere]]
+**** [[https://addons.mozilla.org/en-US/firefox/addon/noscript/][noScript security suite]]
+**** [[https://www.eff.org/privacybadger][privacy badger]]
+**** [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock origin]]
+**** [[https://addons.mozilla.org/en-US/firefox/addon/umatrix/][uMatrix]]
+***** recipes
+ - [[https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets][gorhill (creator)]]
+ - [[https://github.com/kristerkari/umatrix-recipes][kristerkari]]
 *** [[https://www.torproject.org/][Tor]]
 A more secure browsing platform. A very good resource for journalists.
 ** [[https://www.zotero.org/][zotero]]
