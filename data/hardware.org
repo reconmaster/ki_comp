@@ -1,0 +1,26 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: hardware
+#+date: <2020-02-27 Thu>
+#+author: Andrew M. Davis
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 26.3 (Org mode 9.2.5)
+* Introduction
+In the interest of reproducible research, the following machines have
+been successfully configured to use Linux for independent research
+endeavors.
+* Asus
+* Dell
+| Model | Distro Version          |
+|-------+-------------------------|
+| PO2E  | linuxmint-19-xfce-64bit |
+* ThinkPad
+| Model | Distro Version            |
+|-------+---------------------------|
+| R60   | linuxmint-19-xfce-32bit   |
+| T430s | linuxmint-19.3-xfce-64bit |
