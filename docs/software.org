@@ -39,7 +39,7 @@ sudo apt-get upgrade
    :PROPERTIES:
    :ID:       fa794bbd-876d-4889-a7be-b0962db9110a
    :END:
-Roughly 2GB is needed on the usb for a bootable iso. Once you've
+Roughly 4GB is needed on the usb for a bootable iso. Once you've
 created the usb, boot from it and try the live version before
 installing to make sure you are comfortable with the layout.
 *** dd

@@ -16,9 +16,10 @@ been successfully configured to use Linux for independent research
 endeavors.
 * Asus
 * Dell
-| Model | Distro Version          |
-|-------+-------------------------|
-| PO2E  | linuxmint-19-xfce-64bit |
+| Model          | Distro Version            |
+|----------------+---------------------------|
+| Inspiron n5050 | linuxmint-19.2-xfce-64bit |
+| PO2E           | linuxmint-19-xfce-64bit   |
 * ThinkPad
 | Model | Distro Version            |
 |-------+---------------------------|
