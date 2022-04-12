@@ -1,0 +1,49 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Software
+#+date: <2020-02-24 Mon>
+#+author: Andrew M Davis, PhD
+#+email: @reconmaster:matrix.org
+#+author: Jonathan Zelaya
+#+email: @ocelomeh:matrix.org
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 26.3 (Org mode 9.2.5)
+Once you have obtained a functional computational platform, there is a
+variety of software you can run on it. We generally recommend
+[[https://en.wikipedia.org/wiki/Open_source][open-source]] software to ensure freedom in your computing platform.
+
+* [[https://en.wikipedia.org/wiki/Operating_system][Operating system]]
+To provide an interface between your applications and the hardware,
+you need to select an operating system. Again, we recommend
+open-source choices here for both cost and security reasons.
+** [[file:nix/README.org][*nix]]
+The [[https://en.wikipedia.org/wiki/Unix][Unix]] lineage has produced a variety of different operating systems
+that were designed for multi-user research environments. [[https://en.wikipedia.org/wiki/Linux][Linux]]
+provides an open-source version of Unix and the linux kernel can be
+found running on hardware platforms all over the world.
+* [[https://en.wikipedia.org/wiki/Web_browser][Web browser]]
+Try to plan out what you're going to connect to before getting lost in
+space. [[https://www.wikipedia.org/][Wikipedia]] makes for a great starting resource.
+** [[https://en.wikipedia.org/wiki/Firefox][Firefox]]
+A very nice browser platform that can be customized to research.
+*** [[https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/][cookie autoDelete]]
+*** [[https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/][decentraleyes]]
+*** [[https://www.eff.org/https-everywhere][https everywhere]]
+*** [[https://addons.mozilla.org/en-US/firefox/addon/noscript/][noScript security suite]]
+*** [[https://www.eff.org/privacybadger][privacy badger]]
+*** [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock origin]]
+*** [[https://addons.mozilla.org/en-US/firefox/addon/umatrix/][uMatrix]]
+**** recipes
+ - [[https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets][gorhill (creator)]]
+ - [[https://github.com/kristerkari/umatrix-recipes][kristerkari]]
+** [[https://www.torproject.org/][Tor]]
+A more secure browsing platform. A very good resource for journalists.
+* Research
+** [[https://www.zotero.org/][zotero]]
+A great resource manager. This is particularly powerful when combined
+with the Firefox plugin.

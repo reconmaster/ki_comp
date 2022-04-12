@@ -1,0 +1,60 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: *nix
+#+date: <2022-04-11 Mon>
+#+author: Andrew M Davis, PhD
+#+email: @reconmaster:matrix.org
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.2 (Org mode 9.4.6)
+#+cite_export:
+* Introduction
+There are a variety of flavours when it comes to choosing a *nix
+distribution. The choice of distribution depends on a variety of
+factors, here we will document the choices we experiment with as
+computational research platforms.
+
+To look at all the varieties, you can use [[https://distrowatch.com/][DistroWatch]] to help you find
+a distro that fit your needs. We are always experimenting with new
+distros as research platforms and welcome any feedback from other user
+experience. Generally, we focus on features that make distros
+accessible to Linux padawan who are learning.
+* Install
+Once you find a distro, you will need to create a bootable drive to
+either test the Linux as a Live distro or to install it to the main
+hard drive.
+** bootable usb
+   :PROPERTIES:
+   :ID:       fa794bbd-876d-4889-a7be-b0962db9110a
+   :END:
+Roughly 4GB is needed on the usb for a bootable iso. Once you've
+created the usb, boot from it and try the live version before
+installing to make sure you are comfortable with the layout.
+*** dd
+For those of you with linux already.
+
+#+begin_src sh
+#find usb
+lsblk
+
+# write linux.iso to usb
+dd bs=4M if=path/to/linux.iso of=/dev/sdx status=progress oflag=sync
+#+end_src
+*** [[https://rufus.ie/][Rufus]]
+Used a few times on osx and doze. Works rather well.
+* Methods
+Here we document the different *nix distributions that we evaluate as
+secure, collaborative research platforms.
+** [[file:arch.org][Arch]]
+We've found Arch Linux to be a very good platform for providing
+bespoke installations that are tailored to your computing needs. The
+learning curve is rather steep though compared to most distributions
+though it produces powerful results. Generally aimed toward more
+experienced Linux users :penguin:.
+** [[file:debian.org][Debian]]
+A stable Linux distribution that has a number of different flavours.
+We've found debian-based distros to be a bit more beginner friendly.

@@ -24,5 +24,5 @@ Computers are fantastic tools for keeping track of information. Just
 make sure they don't take over you.
 * [[file:docs/hardware.org][Hardware]]
 This is the electronic components that move the bits around.
-* [[file:docs/software.org][Software]]
+* [[file:docs/software/README.org][Software]]
 This is what bit flippin' can do.

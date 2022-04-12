@@ -1,24 +1,23 @@
 #+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
 #+options: author:t broken-links:nil c:nil creator:nil
-#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:t
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
 #+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
 #+options: timestamp:t title:t toc:t todo:t |:t
-#+title: software
-#+date: <2020-02-24 Mon>
-#+author: Andrew M Davis
+#+title: debian
+#+date: <2022-04-11 Mon>
+#+author: Andrew M Davis, PhD
+#+email: @reconmaster:matrix.org
 #+language: en
 #+select_tags: export
 #+exclude_tags: noexport
-#+creator: Emacs 26.3 (Org mode 9.2.5)
-Once you have obtained a functional computational platform, the
-flavour of linux you'd like to drink from is up to you.
-
-For beginners, I'd recommend a [[https://en.wikipedia.org/wiki/Debian][debian]]-based distro for security
-reasons.
-* Distro
-** [[https://en.wikipedia.org/wiki/Debian][Debian]]
-*** [[https://linuxmint.com/][Linux Mint]]
-**** [[https://linuxmint.com/download.php][download]]
+#+creator: Emacs 27.2 (Org mode 9.4.6)
+#+cite_export:
+* Introduction
+For beginners, I'd recommend a [[https://en.wikipedia.org/wiki/Debian][debian]]-based distro for simplicity.
+* Distros
+** [[https://www.debian.org/][Debian]]
+** [[https://linuxmint.com/][Linux Mint]]
+*** [[https://linuxmint.com/download.php][download]]
 Select the bit and desktop version you'd like to run.
 
 As a physicist, I'd recommend the lightweight [[https://en.wikipedia.org/wiki/Xfce][Xfce]] to save on
@@ -27,36 +26,8 @@ and can still function beautifully as a mind mirror. People routinely
 underestimate the power of a pen.
 
 Create a [[id:fa794bbd-876d-4889-a7be-b0962db9110a][bootable usb]] and install to disk if you like what you see.
-*** update
-Keep the things minty fresh.
-    #+begin_src sh
-sudo apt-get update
-
-sudo apt-get upgrade
-    #+end_src
-* Install
-** bootable usb
-   :PROPERTIES:
-   :ID:       fa794bbd-876d-4889-a7be-b0962db9110a
-   :END:
-Roughly 4GB is needed on the usb for a bootable iso. Once you've
-created the usb, boot from it and try the live version before
-installing to make sure you are comfortable with the layout.
-*** dd
-For those of you with linux already.
-
-#+begin_src sh
-#find usb
-lsblk
-
-# write linux.iso to usb
-dd bs=4M if=path/to/linux.iso of=/dev/sdx status=progress oflag=sync
-#+end_src
-*** [[https://rufus.ie/][Rufus]]
-Used a few times on osx and doze. Works rather well.
 * Software
-** Debian
-*** admin
+** admin
 #+BEGIN_SRC sh
 sudo apt-get install\
         etckeeper\
@@ -74,8 +45,8 @@ sudo apt-get install\
         w3m\
         xclip
 #+END_SRC
-*** aesthetics
-**** fonts
+** aesthetics
+*** fonts
 #+BEGIN_SRC sh
 sudo apt-get install\
         fonts-hack-otf\
@@ -84,56 +55,56 @@ sudo apt-get install\
         fonts-noto-cjk\
         fonts-roboto
 #+END_SRC
-*** archive
+** archive
 #+BEGIN_SRC sh
 sudo apt-get install\
         file-roller\
         p7zip
 #+END_SRC
-*** cli
+** cli
 #+BEGIN_SRC sh
 sudo apt-get install\
         tmux\
         zsh
 #+END_SRC
-*** cloud
+** cloud
 #+BEGIN_SRC sh
 sudo apt-get install\
         syncthing
 #+END_SRC
-*** emacs
+** emacs
 #+BEGIN_SRC sh
 sudo apt-get install\
      emacs25\
      pandoc\
      xpdf
 #+END_SRC
-***** email
+**** email
 #+BEGIN_SRC sh
 sudo apt-get install autoconf-archive isync msmtp mu4e
 #+END_SRC
-***** hunspell
+**** hunspell
 #+BEGIN_SRC sh
 sudo apt-get install hunspell-en-us
 #+END_SRC
-*** language
+** language
 #+BEGIN_SRC sh
 sudo apt-get install tagainijisho
 #+END_SRC
-*** media
-***** books
+** media
+**** books
 #+BEGIN_SRC sh
 sudo apt-get install calibre
 #+END_SRC
-***** collections
+**** collections
 #+BEGIN_SRC sh
 sudo apt-get install tellico
 #+END_SRC
-***** images
+**** images
 #+BEGIN_SRC sh
 sudo apt-get install digikam feh gimp inkscape
 #+END_SRC
-***** music
+**** music
 #+BEGIN_SRC sh
 sudo apt-get install beets\
        flac\
@@ -148,30 +119,30 @@ sudo apt-get install beets\
        python-requests\
        sox
 #+END_SRC
-***** video
+**** video
 #+BEGIN_SRC sh
 sudo apt-get install\
      blender\
      kodi\
      vlc
 #+END_SRC
-*** office
+** office
 #+BEGIN_SRC sh
 sudo apt-get install\
      libreoffice\
      okular\
      scribus
 #+END_SRC
-*** programming
-***** git
+** programming
+**** git
 #+BEGIN_SRC sh
-sudo apt-get install git git-annex git-hub
+sudo apt-get install git git-annex
 #+END_SRC
-***** latex
+**** latex
 #+BEGIN_SRC sh
 sudo apt-get install texlive-latex-recommended texlive-lang-japanese
 #+END_SRC
-***** python
+**** python
 #+BEGIN_SRC sh
 sudo apt-get install\
        flake8\
@@ -182,7 +153,7 @@ sudo apt-get install\
        python-pyqt5\
        jupyter
 #+END_SRC
-*** research
+** research
 #+BEGIN_SRC sh
 sudo apt-get install\
        python-numpy\
@@ -190,29 +161,19 @@ sudo apt-get install\
        python-matplotlib\
        python-pandas
 #+END_SRC
-*** security
+** security
 #+BEGIN_SRC sh
 sudo apt-get install\
      pass\
      tor
 #+END_SRC
-** Internet
-Try to plan out what you're going to connect to before getting lost in
-space. [[https://www.wikipedia.org/][Wikipedia]] makes for a great starting resource.
-*** [[https://en.wikipedia.org/wiki/Firefox][Firefox]]
-A very nice browser platform that can be customized to research.
-**** [[https://addons.mozilla.org/en-US/firefox/addon/cookie-autodelete/][cookie autoDelete]]
-**** [[https://addons.mozilla.org/en-US/firefox/addon/decentraleyes/][decentraleyes]]
-**** [[https://www.eff.org/https-everywhere][https everywhere]]
-**** [[https://addons.mozilla.org/en-US/firefox/addon/noscript/][noScript security suite]]
-**** [[https://www.eff.org/privacybadger][privacy badger]]
-**** [[https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/][uBlock origin]]
-**** [[https://addons.mozilla.org/en-US/firefox/addon/umatrix/][uMatrix]]
-***** recipes
- - [[https://github.com/gorhill/uMatrix/wiki/Examples-of-useful-rulesets][gorhill (creator)]]
- - [[https://github.com/kristerkari/umatrix-recipes][kristerkari]]
-*** [[https://www.torproject.org/][Tor]]
-A more secure browsing platform. A very good resource for journalists.
-** [[https://www.zotero.org/][zotero]]
-A great resource manager. This is particularly powerful when combined
-with the Firefox plugin.
+
+* TODO Methods
+Here are some useful commands for maintaining the installation.
+** update
+Keep the things minty fresh.
+    #+begin_src sh
+sudo apt-get update
+
+sudo apt-get upgrade
+    #+end_src

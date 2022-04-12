@@ -1,0 +1,26 @@
+#+options: ':nil *:t -:t ::t <:t H:3 \n:nil ^:t arch:headline
+#+options: author:t broken-links:nil c:nil creator:nil
+#+options: d:(not "LOGBOOK") date:t e:t email:nil f:t inline:t num:nil
+#+options: p:nil pri:nil prop:nil stat:t tags:t tasks:t tex:t
+#+options: timestamp:t title:t toc:t todo:t |:t
+#+title: Arch
+#+date: <2022-04-11 Mon>
+#+author: Andrew M Davis, PhD
+#+email: @reconmaster:matrix.org
+#+author: Jonathan Zelaya
+#+email: @ocelomeh:matrix.org
+#+language: en
+#+select_tags: export
+#+exclude_tags: noexport
+#+creator: Emacs 27.2 (Org mode 9.4.6)
+#+cite_export:
+* Introduction
+Arch Linux gives bleeding edge support and the ability to tailor your
+Linux installation to your computational needs.
+* Methods
+** [[https://archlinux.org/][Arch Linux]]
+The original Arch linux that has been demonstrated to provide a stable
+research platform.
+** [[https://endeavouros.com/][EndeavourOS]]
+This distribution seeks to provide a much easier installation to
+bring the power of Arch to less experienced users.
