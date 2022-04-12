@@ -17,10 +17,159 @@
 * Introduction
 Arch Linux gives bleeding edge support and the ability to tailor your
 Linux installation to your computational needs.
-* Methods
+* Distros
 ** [[https://archlinux.org/][Arch Linux]]
 The original Arch linux that has been demonstrated to provide a stable
-research platform.
+research platform. Part of what makes Arch such a great distro is the
+excellent documentation provided in their [[https://wiki.archlinux.org/][ArchWiki]].
 ** [[https://endeavouros.com/][EndeavourOS]]
 This distribution seeks to provide a much easier installation to
 bring the power of Arch to less experienced users.
+* TODO Software
+Need to run these commands and verify still works. Might need to split
+to make yay commands for packages in the AUR
+** admin
+#+BEGIN_SRC sh
+sudo pacman -S\
+        etckeeper\
+        glances\
+        htop\
+        iftop\
+        logwatch\
+        most\
+        ngrep\
+        parallel\
+        pydf\
+        python-pip\
+        ranger\
+        ruby\
+        w3m\
+        xclip
+#+END_SRC
+** aesthetics
+*** fonts
+#+BEGIN_SRC sh
+sudo pacman -S\
+        fonts-hack-otf\
+        fonts-inconsolata\
+        fonts-noto\
+        fonts-noto-cjk\
+        fonts-roboto
+#+END_SRC
+** archive
+#+BEGIN_SRC sh
+sudo pacman -S\
+        file-roller\
+        p7zip
+#+END_SRC
+** cli
+#+BEGIN_SRC sh
+sudo pacman -S\
+        tmux\
+        zsh
+#+END_SRC
+** cloud
+#+BEGIN_SRC sh
+sudo pacman -S\
+        syncthing
+#+END_SRC
+** emacs
+#+BEGIN_SRC sh
+sudo pacman -S\
+     emacs\
+     pandoc\
+     xpdf
+#+END_SRC
+**** email
+#+BEGIN_SRC sh
+sudo pacman -S autoconf-archive isync msmtp mu4e
+#+END_SRC
+**** hunspell
+#+BEGIN_SRC sh
+sudo pacman -S hunspell-en-us
+#+END_SRC
+** language
+#+BEGIN_SRC sh
+sudo pacman -S tagainijisho
+#+END_SRC
+** media
+**** books
+#+BEGIN_SRC sh
+sudo pacman -S calibre
+#+END_SRC
+**** collections
+#+BEGIN_SRC sh
+sudo pacman -S tellico
+#+END_SRC
+**** images
+#+BEGIN_SRC sh
+sudo pacman -S digikam feh gimp inkscape
+#+END_SRC
+**** music
+#+BEGIN_SRC sh
+sudo pacman -S beets\
+       flac\
+       mopidy\
+       mopidy-beets\
+       mopidy-podcast\
+       mopidy-soundcloud\
+       mp3val\
+       ncmpcpp\
+       python-mpd\
+       python-pylast\
+       python-requests\
+       sox
+#+END_SRC
+**** video
+#+BEGIN_SRC sh
+sudo pacman -S\
+     blender\
+     kodi\
+     vlc
+#+END_SRC
+** office
+#+BEGIN_SRC sh
+sudo pacman -S\
+     libreoffice\
+     okular\
+     scribus
+#+END_SRC
+** programming
+**** git
+#+BEGIN_SRC sh
+sudo pacman -S git git-annex
+#+END_SRC
+**** latex
+#+BEGIN_SRC sh
+sudo pacman -S texlive-latex-recommended texlive-lang-japanese
+#+END_SRC
+**** python
+#+BEGIN_SRC sh
+sudo pacman -S\
+       flake8\
+       python\
+       python-ipdb\
+       python-jedi\
+       python-pip
+       python-pyqt5\
+       jupyter
+#+END_SRC
+** research
+#+BEGIN_SRC sh
+sudo pacman -S\
+       python-numpy\
+       python-scipy \
+       python-matplotlib\
+       python-pandas
+#+END_SRC
+** security
+#+BEGIN_SRC sh
+sudo pacman -S\
+     pass\
+     tor
+#+END_SRC
+* Methods
+** update
+#+begin_src sh
+sudo pacman -Syu
+#+end_src
