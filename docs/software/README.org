@@ -47,3 +47,80 @@ A more secure browsing platform. A very good resource for journalists.
 ** [[https://www.zotero.org/][zotero]]
 A great resource manager. This is particularly powerful when combined
 with the Firefox plugin.
+* Writing
+** Tools
+- https://atom.io/
+    - A **hackable text editor** for the 21st Century.
+- https://bibisco.com/
+    - Bibisco is a **novel writing software** that helps you to write your novel, in a simple way.
+    - There is a limited free edition and a full featured supporter edition.
+- https://www.giuspen.com/cherrytree/
+    - A **hierarchical note taking** application, featuring rich text and syntax highlighting, storing data in a single xml or sqlite file.
+- https://www.gnu.org/software/emacs/
+    - An extensible, customizable, free/libre text editor — and more. At its core is an interpreter for Emacs Lisp, a dialect of the Lisp programming language with extensions to support text editing.
+- https://github.com/EdenBD/MultiModalStory-demo
+    - FairyTailor: Multimodal Generative **Framework for Storytelling**. Users can create a cohesive children's story by weaving generated texts and retrieved images with their input. With co-creation, writers contribute their creative thinking, while generative models contribute to their constant workflow. FairyTailor adds another modality and modifies the text generation process to help producing a coherent and creative story.
+- https://gottcode.org/focuswriter/
+    - FocusWriter is a simple, **distraction-free writing** environment. It utilizes a hide-away interface that you access by moving your mouse to the edges of the screen, allowing the program to have a familiar look and feel to it while still getting out of the way so that you can immerse yourself in your work. It’s available for Linux and Windows, and has been translated into many different languages.
+- https://helix-editor.com/
+    - A **post-modern** text editor.
+- https://ide.atom.io/
+    - Get smarter **context-aware auto-completion**, **code navigation** features such as an **outline view**, **go to definition** and **find all references**. As well as **hover-to-reveal** information, **diagnostics** (errors and warnings) and **document formatting**.
+        - Search Atom packages: https://atom.io/packages/search?q=IDE
+- https://libreoffice.org/
+    - LibreOffice is a free and powerful **office suite**, and a successor to OpenOffice.org (commonly known as OpenOffice). Its clean interface and feature-rich tools help you unleash your creativity and enhance your productivity.
+- https://www.theologeek.ch/manuskript/
+    - Manuskript is a perfect tool for those writer who like to organize and **plan everything** before writing.
+- https://notepad-plus-plus.org/
+    - Notepad++ is a free (as in “free speech” and also as in “free beer”) source code editor and **Notepad** replacement that supports several languages. Running in the MS Windows environment, its use is governed by GNU General Public License.
+- https://obsidian.md/
+    - Obsidian is a powerful **knowledge base** on top of a **local folder** of plain text Markdown files.
+        - Help: https://help.obsidian.md/How+to/Format+your+notes
+        - Plugins: https://obsidian.md/plugins
+- https://www.qownnotes.org/
+    - Free open source plain-text file **markdown note** taking with Nextcloud / ownCloud integration.
+- https://quollwriter.com/
+    - A writing application that lets you **focus on your words**.
+- https://www.scribus.net/
+    - Scribus, a **page layout program** for Linux, FreeBSD, PC-BSD, NetBSD, OpenBSD, Solaris, OpenIndiana, Debian GNU/Hurd, Mac OS X, OS/2 Warp 4, eComStation, Haiku and Windows.
+- https://www.texstudio.org/
+    - TeXstudio is an integrated writing environment for creating **LaTeX** documents.
+- https://tiddlywiki.com/
+    - TiddlyWiki, a unique **non-linear notebook** for capturing, organising and sharing complex information.
+        - Google Groups: https://groups.google.com/group/TiddlyWiki
+        - Chat:  https://gitter.im/TiddlyWiki/public
+        - GitHub: https://github.com/Jermolene/TiddlyWiki5
+- https://github.com/zadam/trilium
+    - Trilium Notes is a **hierarchical note taking application** with focus on building large personal knowledge bases.
+- https://www.vim.org/scripts/script.php?script\*\*id=4785
+    - Distraction-free writing in **Vim**.
+- https://wavemaker.cards/
+    - **Authoring tool** with various modes and tools like **cards**, **notes**, **mind maps**, and a **snowflake**. Includes a very handy **timeline tool**, as well. Wavemaker uses a **locally stored browser based database to keep your projects in**. So no logins are needed :) .The plus side is you control your data, the downside is YOU control your data.
+
+** Methods
+
+- https://www.masterhowtolearn.com/
+    - A lot of information about **incremental writing** and reading.
+- https://www.markdownguide.org/
+    - Markdown makes writing on the web fast and easy. **The Markdown Guide** teaches you how to use it.
+        - https://www.markdownguide.org/cheat-sheet/
+        - https://www.markdownguide.org/basic-syntax/
+        - https://www.markdownguide.org/extended-syntax/
+- https://d.moonfire.us/blog/2018/08/21/mfgames-writing-reasons/
+    - The Evolution of **MfGames Writing**.
+
+** Course
+
+- https://www.coursera.org/learn/craft-of-plot?specialization=creative-writing#instructors
+    - Creative Writing: `The Craft of Plot: In this course aspiring writers will be introduced to perhaps the most elemental and often the most challenging element of story: plot.  We will learn what keeps it moving, how it manipulates our feelings, expectations, and desires.  We will examine the choices storytellers make to snag our imaginations, drag them into a fictional world, and keep them there. We will learn how to outline and structure a plot, discuss narrative arc, pacing and reversals and reveal the inevitable surprise: connecting the beginning, middle and end.`
+- https://www.coursera.org/learn/speechwriting
+    - Presentation skills: `Speechwriting and Storytelling`
+- https://www.edx.org/course/storytelling-in-the-workplace-3
+    - Storytelling in the Workplace: `Learn how to craft messages and narratives that will resonate with your target audience to create your desired outcome.`
+- https://www.udemy.com/topic/storytelling/?price=price-free&sort=popularity
+    - udemy: `Storytelling`
+
+** Publish
+
+- https://allpoetry.com/
+    - The web's largest **poetry writing group** - from beginners to experts. Improve your poetry, create a fan base, and read the best poetry of our generation. Allpoetry is home base for poets.
